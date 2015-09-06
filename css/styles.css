@@ -1,0 +1,33 @@
+#calculator {
+
+}
+
+.grey-bg {
+    background-color: gray;
+}
+
+#displayText {
+    background-color: #333;
+    color: white;
+    width: 213px;
+    margin: 15px;
+    text-align: right;
+    height: 50px;
+}
+
+#calc-buttons {
+
+}
+
+.btn-operator {
+    background-color: orange;
+    color: white;
+}
+
+.span1 {
+    width: 50px;
+}
+
+.span2 {
+    width: 103px;
+}
