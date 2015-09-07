@@ -12,47 +12,47 @@
     <div class="container">
         <div class="col-md-8 col-md-offset-2">
             <div id="calculator">
-                <div class="row">
-                    <input class="col-md-3" type="text" id="displayText" value="0" disabled=true />
+                <div class="row">                    
+                    <input class="col-md-3" type="text" id="displayText" placeholder="0" disabled=true />
                 </div>
                 <div id="calc-buttons">
                     <div class="row">
                         <div class="col-md-4">
-                            <button class="btn btn-default span1 grey-bg">AC</button>
-                            <button class="btn btn-default span1 grey-bg">+/-</button>
-                            <button class="btn btn-default span1 grey-bg">%</button>
-                            <button class="btn btn-default btn-operator span1">/</button>
+                            <button class="btn btn-default span1 grey-bg" id="clearBtn">AC</button>
+                            <button class="btn btn-default span1 grey-bg" id="signBtn">+/-</button>
+                            <button class="btn btn-default span1 grey-bg" id="percentageBtn">%</button>
+                            <button class="btn btn-default btn-operator span1" id="divideBtn">/</button>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-md-4">                        
-                            <button class="btn btn-default span1">7</button>
-                            <button class="btn btn-default span1">8</button>
-                            <button class="btn btn-default span1">9</button>
-                            <button class="btn btn-default btn-operator span1">X</button>
+                            <button class="btn btn-default span1" id="sevenBtn">7</button>
+                            <button class="btn btn-default span1" id="eightBtn">8</button>
+                            <button class="btn btn-default span1" id="nineBtn">9</button>
+                            <button class="btn btn-default btn-operator span1" id="multiplyBtn">X</button>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-md-4">
-                            <button class="btn btn-default span1">4</button>
-                            <button class="btn btn-default span1">5</button>
-                            <button class="btn btn-default span1">6</button>
-                            <button class="btn btn-default btn-operator span1">-</button>
+                            <button class="btn btn-default span1" id="fourBtn">4</button>
+                            <button class="btn btn-default span1" id="fiveBtn">5</button>
+                            <button class="btn btn-default span1" id="sixBtn">6</button>
+                            <button class="btn btn-default btn-operator span1" id="subtractBtn">-</button>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-md-4">                        
-                                <button class="btn btn-default span1">1</button>
-                                <button class="btn btn-default span1">2</button>
-                                <button class="btn btn-default span1">3</button>
-                                <button class="btn btn-default btn-operator span1">+</button>                        
+                            <button class="btn btn-default span1" id="oneBtn">1</button>
+                            <button class="btn btn-default span1" id="twoBtn">2</button>
+                            <button class="btn btn-default span1" id="threeBtn">3</button>
+                            <button class="btn btn-default btn-operator span1" id="addBtn">+</button>                        
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-md-4">
-                                <button class="btn btn-default span2">0</button>
-                                <button class="btn btn-default span1"><strong>.</strong></button>
-                                <button class="btn btn-default btn-operator span1">=</button>
+                            <button class="btn btn-default span2" id="zeroBtn">0</button>
+                            <button class="btn btn-default span1" id="decimalBtn"><strong>.</strong></button>
+                            <button class="btn btn-default btn-operator span1" id="equalBtn">=</button>
                         </div>
                     </div>
                 </div>
